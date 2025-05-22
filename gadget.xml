@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="神姫PROJECT">
+    <Require feature="opensocial-0.8" />
+    <Require feature="opensocial-payment" />
+    <Require feature="dynamic-height" />
+    <Require feature="minimessage" />
+    <Require feature="dmm" />
+   <Link rel="payment.handler" href="https://r-php83-xxxxxx-kh.nurika.be/v1/payment/handler" />
+   <!-- <Link rel="event.addapp" href="https://r-php83-xxxxxx-kh.nurika.be/addapp" method="POST" /> -->
+   <!-- <Link rel="event.suspendapp" href="https://r-php83-xxxxxx-kh.nurika.be/suspendapp" method="GET" /> -->
+   <!-- <Link rel="event.resumeapp" href="https://r-php83-xxxxxx-kh.nurika.be/resumeapp" method="GET" /> -->
+   <!-- <Link rel="event.removeapp" href="https://r-php83-xxxxxx-kh.nurika.be/removeapp" method="GET" /> -->
+   <!-- <Link rel="event.join_community" href="https://r-php83-xxxxxx-kh.nurika.be/joinCommunity" method="GET" /> -->
+   <!-- <Link rel="event.leave_community" href="https://r-php83-xxxxxx-kh.nurika.be/leaveCommunity" method="GET" /> -->
+  </ModulePrefs>
+  <Content view="touch" type="url" href="https://r-php83-xxxxxx-kh.nurika.be" />
+  <Content view="canvas" type="html" preferred_width="1260">
+  <![CDATA[
+
+      <link href="http://locahost:5500/front/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="http://locahost:5500/front/css/common.css" rel="stylesheet" type="text/css">
+      <link href="http://locahost:5500/front/css/news-content.css" rel="stylesheet" type="text/css">
+      <link href="http://locahost:5500/front/css/jquery.simpleTicker.css" rel="stylesheet" type="text/css">
+      <script src="http://locahost:5500/front/cocos2d-proj/vendor/jquery/dist/jquery.min.js"></script>
+
+      <div id="main" data-host="r-php83-xxxxxx-kh.nurika.be">
+      </div>
+
+      <script src="http://locahost:5500/front/cocos2d-proj/vendor/boombox.js/boombox.min.js"></script>
+      <script src="http://locahost:5500/front/cocos2d-proj/vendor/WMAudioUtil.js/lib/WMAudioUtil.js"></script>
+      <script src="http://locahost:5500/front/cocos2d-proj/vendor/q/q.js"></script>
+
+
+      <script src="http://locahost:5500/front/dmmApi.js?2"></script>
+      <script src="http://locahost:5500/front/start.js"></script>
+
+  ]]>
+  </Content>
+</Module>
+
