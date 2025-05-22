@@ -18,22 +18,22 @@
   <Content view="canvas" type="html" preferred_width="1260">
   <![CDATA[
 
-      <link href="https://locahost:5500/front/css/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="https://locahost:5500/front/css/common.css" rel="stylesheet" type="text/css">
-      <link href="https://locahost:5500/front/css/news-content.css" rel="stylesheet" type="text/css">
-      <link href="https://locahost:5500/front/css/jquery.simpleTicker.css" rel="stylesheet" type="text/css">
-      <script src="https://locahost:5500/front/cocos2d-proj/vendor/jquery/dist/jquery.min.js"></script>
+      <link href="https://localhost:5500/front/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="https://localhost:5500/front/css/common.css" rel="stylesheet" type="text/css">
+      <link href="https://localhost:5500/front/css/news-content.css" rel="stylesheet" type="text/css">
+      <link href="https://localhost:5500/front/css/jquery.simpleTicker.css" rel="stylesheet" type="text/css">
+      <script src="https://localhost:5500/front/cocos2d-proj/vendor/jquery/dist/jquery.min.js"></script>
 
       <div id="main" data-host="r-php83-ou-kh.nurika.be">
       </div>
 
-      <script src="https://locahost:5500/front/cocos2d-proj/vendor/boombox.js/boombox.min.js"></script>
-      <script src="https://locahost:5500/front/cocos2d-proj/vendor/WMAudioUtil.js/lib/WMAudioUtil.js"></script>
-      <script src="https://locahost:5500/front/cocos2d-proj/vendor/q/q.js"></script>
+      <script src="https://localhost:5500/front/cocos2d-proj/vendor/boombox.js/boombox.min.js"></script>
+      <script src="https://localhost:5500/front/cocos2d-proj/vendor/WMAudioUtil.js/lib/WMAudioUtil.js"></script>
+      <script src="https://localhost:5500/front/cocos2d-proj/vendor/q/q.js"></script>
 
 
-      <script src="https://locahost:5500/front/dmmApi.js?2"></script>
-      <script src="https://locahost:5500/front/start.js"></script>
+      <script src="https://localhost:5500/front/dmmApi.js?2"></script>
+      <script src="https://localhost:5500/front/start.js"></script>
 
   ]]>
   </Content>
